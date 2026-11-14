@@ -158,7 +158,6 @@ define AP_COMPASS_PROBING_ENABLED 1
 define HAL_I2C_INTERNAL_MASK 1
 define HAL_COMPASS_AUTO_ROT_DEFAULT 2
 BARO AllExternal
-COMPASS AllExternal
 
 # Dual ICM-42688-P IMUs (second rotated 270 deg per board spec)
 IMU Invensensev3 SPI:icm42688 ROTATION_NONE
