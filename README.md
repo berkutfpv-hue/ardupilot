@@ -1,5 +1,5 @@
 # ArduPilot Project
-### Быстрая навигация по сборке FC_RS_01H743 (VOLT3TB)
+### Быстрая навигация по сборке FC_RS_01H743 (RSH_743)
 * [Редактировать конфиг железа (hwdef.dat)](libraries/AP_HAL_ChibiOS/hwdef/MatekH743/hwdef.dat)
 * [Запустить сборку прошивки (Actions)](../../actions)
 
