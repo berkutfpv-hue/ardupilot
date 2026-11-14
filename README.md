@@ -1,4 +1,7 @@
 # ArduPilot Project
+### Быстрая навигация по сборке FC_RS_01H743 (VOLT3TB)
+* [Редактировать конфиг железа (hwdef.dat)](libraries/AP_HAL_ChibiOS/hwdef/MatekH743/hwdef.dat)
+* [Запустить сборку прошивки (Actions)](../../actions)
 
 [![Discord](https://img.shields.io/discord/674039678562861068.svg)](https://ardupilot.org/discord)
 
