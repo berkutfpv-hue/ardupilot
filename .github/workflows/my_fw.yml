@@ -15,7 +15,6 @@ jobs:
         pip3 install empy==3.3.4 pexpect future intelhex
     - name: Build Copter for VOLT81_FC_RS_001
       run: |
-          python3 Tools/scripts/build_bootloaders.py VOLT81_FC_RS_001
           ./waf configure --board VOLT81_FC_RS_001
           ./waf copter
     - name: Upload Firmware
