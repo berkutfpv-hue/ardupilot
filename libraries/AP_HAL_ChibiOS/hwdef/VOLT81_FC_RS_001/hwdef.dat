@@ -174,4 +174,4 @@ define HAL_OSD_TYPE_DEFAULT 1
 ROMFS_WILDCARD libraries/AP_OSD/fonts/font*.bin
 
 # Embedded default parameters
-DEFAULT_PARAMETERS libraries/AP_HAL_ChibiOS/hwdef/TBF81_FC_RS_001/defaults.parm
+DEFAULT_PARAMETERS libraries/AP_HAL_ChibiOS/hwdef/VOLT81_FC_RS_001/defaults.parm
