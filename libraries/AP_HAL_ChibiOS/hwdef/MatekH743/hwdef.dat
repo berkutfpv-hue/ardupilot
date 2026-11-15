@@ -176,3 +176,4 @@ IMU Invensensev3 SPI:icm42688_2 ROTATION_YAW_270
 # Analog OSD
 define OSD_ENABLED 1
 define HAL_OSD_TYPE_DEFAULT 1
+ROMFS_WILDCARD libraries/AP_OSD/fonts/font*.bin
