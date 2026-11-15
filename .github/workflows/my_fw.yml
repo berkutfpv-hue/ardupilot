@@ -1,4 +1,4 @@
-name: Build by VOLT81_FC_RS_001
+name: Build by Matek743
 on:
   workflow_dispatch:
 jobs:
@@ -13,13 +13,13 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y gcc-arm-none-eabi python3-pip python3-dev ccache
         pip3 install empy==3.3.4 pexpect future intelhex
-    - name: Build Copter for VOLT81_FC_RS_001
+    - name: Build Copter for Matek743
       run: |
-          ./waf configure --board VOLT81_FC_RS_001
+          ./waf configure --board Matek_743
           ./waf copter
     - name: Upload Firmware
       uses: actions/upload-artifact@v4
       with:
-         name: VOLT81_FC_RS_001
-         path: build/VOLT81_FC_RS_001/bin/arducopter*
+         name: Matek743
+         path: build/Matek743/bin/arducopter*
   
