@@ -1,3 +1,8 @@
+### Быстрая навигация по сборке VOLT81_FC_RS_001 (RS_H743_VOLT)
+
+* [Редактировать конфиг железа (hwdef.dat)](https://github.com)
+* [Редактировать параметры по умолчанию (defaults.parm)](https://github.com)
+* [Запустить сборку прошивки (Actions)](https://github.com)
 # ArduPilot Project
 ### Быстрая навигация по сборке FC_RS_01H743 (RSH_743)
 * [Редактировать конфиг железа (hwdef.dat)](libraries/AP_HAL_ChibiOS/hwdef/MatekH743/hwdef.dat)
